@@ -1,0 +1,14 @@
+<h1>boulder 🥩🥩🥩</h1>
+
+<h2>{{this.headline}}</h2>
+<a href={{this.url}}>go to article on DailyCamera.com</a>
+
+<ul>
+  {{#each this.comment}}
+  <li id={{body}}>
+    <h2>{{body}}</h2>
+  </li>
+  {{/each}}
+</ul>
+<input class="input-comment" type="text"></input>
+<button data-article={{this.id}} class="post-comment">post a comment</button>
