@@ -6,7 +6,8 @@
 <ul>
   {{#each this.comment}}
   <li id={{body}}>
-    <h2>{{body}}</h2>
+    <p class="comment">{{body}}</p>
+    <small class="comment-date">{{date}}</small>
   </li>
   {{/each}}
 </ul>

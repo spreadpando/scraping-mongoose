@@ -1,12 +1,13 @@
 <h1>boulder 🥩🥩🥩</h1>
 
-<h2>comment are 100% unmoderated</h2>
+<h2>comments are 100% unmoderated</h2>
 
 <ul>
   {{#each data}}
   <li>
     <a class="open-article" href="/articles/{{this.id}}">
-      <h2>{{this.headline}}</h2>
+      <p class="post">{{this.headline}}</p>
+      <small>{{this.comment.length}} comments</small>
     </a>
   </li>
   {{/each}}

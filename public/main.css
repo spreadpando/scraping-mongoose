@@ -1,0 +1,19 @@
+* {
+    font-family: Consolas, 'Courier New', monospace;
+    text-decoration: none;
+    list-style: none;
+}
+
+.post {
+    margin: 5px 0 0 0;
+}
+
+.comment {
+    display: inline-block;
+    margin: 5px 0 0 0;
+}
+
+.comment-date {
+    display: inline-block;
+    color: #864c4c;
+}
