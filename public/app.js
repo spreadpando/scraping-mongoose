@@ -3,5 +3,7 @@ $(document).on("click", ".post-comment", function (e) {
     let req = {
         body: comment
     };
-    $.post("/articles/" + $(this).data('article'), req, function (res) {})
+    $.post("/articles/" + $(this).data('article'), req, function (res) {
+        location.reload(true);
+    })
 })
