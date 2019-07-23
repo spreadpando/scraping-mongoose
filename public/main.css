@@ -17,3 +17,19 @@
     display: inline-block;
     color: #864c4c;
 }
+
+.input-comment {
+    width: 70vw;
+    margin: 0 0 0 15vw;
+}
+
+.post-comment {
+    color: black;
+    background-color: white;
+    border-style: black 2px;
+    border-radius: 10px;
+}
+
+small {
+    font-size: 75%;
+}
